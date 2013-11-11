@@ -1,5 +1,13 @@
 # JSONKit Changelog
 
+## Version 1.9.1 - 13/11/10
+In order to support XCode5 with iOS7..
+Changed two methods asper XCode suggestions..
+In "_JKArrayCreate" function
+    object_setClass(array, _JKArrayClass);//in order to support XCode5 with iOS7
+In "_JKDictionaryCreate" function
+    object_setClass(dictionary, _JKDictionaryClass);
+
 ## Version 1.X ????/??/??
 
 **IMPORTANT:** The following changelog notes are a work in progress.  They apply to the work done on JSONKit post v1.4.  Since JSONKit itself is inbetween versions, these changelog notes are subject to change, may be wrong, and just about everything else you could expect at this point in development.
